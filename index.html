@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Creators - Stirod</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+
+            <h1>Code Creators</h1>
+
+            <nav class="nav-principal">
+                <a href="#tecnologia">Tecnologías</a>
+                <a href="#galeria">Galería</a>
+                <a href="#info">+Info</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Code Creators Web Site</h2>
+                <p>Stirod, Medellín, Colombia</p>
+            </div>
+        </div>
+
+        <video autoplay muted loop>
+            <source src="video/progra.mp4" type="video/mp4">
+            <source src="video/progra.ogv" type="video/ogv">
+            <source src="video/progra.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-codeCreator">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/Code_Creators.avif" type="image/avif">
+                <source srcset="build/img/Code_Creators.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build/img/Code_Creators.jpg" alt="Creator">
+            </picture>
+        </div>
+
+        <div class="contenido-codeCreator">
+            <h2>Code Creators Web Site</h2>
+            <p class="fecha">Stirod, Medellín, Colombia</p>
+            <p>Bienvenido a Code Creators, un sitio web que ofrece definiciones y explicaciones claras de las últimas
+                tecnologías de desarrollo web. Nuestro objetivo es proporcionar información precisa y accesible sobre
+                HTML, CSS, JavaScript, frameworks y otras tecnologías sin proporcionar tutoriales o lecciones paso a
+                paso. En Code Creators, puedes encontrar todo lo que necesitas saber sobre el mundo del desarrollo web
+                de una manera clara y concisa. ¡Gracias por visitar Code Creators!</p>
+        </div>
+    </section>
+
+    <section id="tecnologia" class="tecnologias">
+        <h3>Tecnologías</h3>
+        <p class="nivel">Básico</p>
+        <div class="contenedor tecnologia-contenedor">
+            <div class="card-tecnologia html bg-tecnologia">
+                <p class="nombre-tecnologia">html5</p>
+                <p class="text-tecnologia">HTML5 (Hypertext Markup Language) es el lenguaje de marcado utilizado para
+                    estructurar y presentar contenido en la web. Es la base de cualquier sitio web y se utiliza para
+                    definir los elementos de la página, como encabezados, párrafos, imágenes, enlaces, formularios, etc.
+                </p>
+            </div>
+
+            <div class="card-tecnologia css bg-tecnologia">
+                <p class="nombre-tecnologia">css3</p>
+                <p class="text-tecnologia">CSS3 (Cascading Style Sheets) es un lenguaje de estilo utilizado para diseñar
+                    y dar estilo a la presentación de una página web. Se utiliza para definir la apariencia visual de
+                    los elementos HTML, como el color, tamaño, fuente, posición, y animaciones.</p>
+            </div>
+        </div>
+
+        <p class="nivel">Avanzado</p>
+        <div class="contenedor tecnologia-contenedor">
+            <div class="card-tecnologia js bg-tecnologia">
+                <p class="nombre-tecnologia">javascript</p>
+                <p class="text-tecnologia">JS (JavaScript) es un lenguaje de programación que se utiliza para crear
+                    interacciones dinámicas en una página web. Es una de las tecnologías más populares en el desarrollo
+                    web y se utiliza para crear efectos visuales, validar formularios, realizar solicitudes a
+                    servidores, y mucho más.</p>
+            </div>
+
+            <div class="card-tecnologia react bg-tecnologia">
+                <p class="nombre-tecnologia">react</p>
+                <p class="text-tecnologia">React es una biblioteca de JavaScript para la creación de interfaces de
+                    usuario. Permite crear componentes reutilizables que se pueden utilizar en diferentes partes de una
+                    aplicación web. React se utiliza para crear aplicaciones web de una sola página (SPA) y aplicaciones
+                    móviles nativas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galerias">
+        <div class="contenedor galeria">
+            <h3>Galería</h3>
+
+            <ul class="galeria-img"></ul>
+        </div>
+    </section>
+
+    <section id="info" class="info">
+        <h3>Recursos</h3>
+        <p class="text-info">Bienvenido a la sección "+Info" de nuestro sitio web. Aquí encontrarás una lista de
+            herramientas y utilidades que pueden ser útiles para desarrolladores web que estén trabajando con HTML5,
+            CSS3, JS y React. Esta lista incluye recursos para mejorar la productividad, aprender nuevas habilidades y
+            mantenerse actualizado con las últimas tendencias en el desarrollo web.</p>
+        <div class="contenido-info contenedor">
+            <div class="herramientas bg-info">
+                <h4>herramientas</h4>
+
+                <ul class="lista">
+                    <li> <span>Editores de código</span> (por ejemplo, Visual Studio Code, Sublime Text, Atom, etc.)</li>
+                    <li> <span>Frameworks CSS</span> (por ejemplo, Bootstrap, Materialize, Foundation, etc.)</li>
+                    <li> <span>Generadores de paletas de colores</span> (por ejemplo, Coolors, Color Hunt, Palette Generator, etc.)
+                    </li>
+                    <li> <span>Validadores de código</span> (por ejemplo, validador HTML de W3C, validador CSS de W3C, JSLint, etc.)
+                    </li>
+                    <li> <span>Herramientas de optimización de imágenes</span> (por ejemplo, TinyPNG, ImageOptim, Compressor.io,
+                        etc.)</li>
+                    <li> <span>Generadores de gráficos y diagramas</span> (por ejemplo, Chart.js, D3.js, Google Charts, etc.)</li>
+                    
+                </ul>
+            </div>
+            <div class="utilidades bg-info">
+                <h4>Utilidades</h4>
+                <ul class="lista">
+                    <li> <span>Tutoriales y cursos en línea</span> (por ejemplo, Udemy, Coursera, Codecademy, etc.)</li>
+                    <li> <span>Libros</span> (por ejemplo, "HTML and CSS: Design and Build Websites" de Jon Duckett, "JavaScript: The
+                        Good Parts" de Douglas Crockford, etc.)</li>
+                    <li> <span>Blogs y sitios web</span> (por ejemplo, CSS-Tricks, Smashing Magazine, A List Apart, etc.)</li>
+                    <li> <span>Comunidades en línea</span> (por ejemplo, Stack Overflow, Reddit, GitHub, etc.)</li>
+                    <li> <span>Ejemplos de código</span> (por ejemplo, proyectos en GitHub, CodePen, etc.)</li>
+                    <li> <span>Documentación oficial</span> (por ejemplo, documentación de HTML5, CSS3, JavaScript, React, etc.)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Code Creators. Todos los derechos reservados </p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+</body>
+
+</html>
